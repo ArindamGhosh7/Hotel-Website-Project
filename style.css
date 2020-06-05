@@ -1,0 +1,233 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7em;
+}
+a{
+    text-decoration: none;
+}
+h1, h2, h3{
+    padding-bottom: 20px;
+}
+p{
+    margin: 10px 0;
+}
+
+/* Global Classes */
+.container{
+    margin: auto;
+    max-width: 900px;
+    overflow: auto;
+    padding: 0px 20px;
+}
+.text-primary{
+    color: #f7c08a;
+}
+.bg_primary{
+    background-color: #f7c08a;
+}
+.lead{
+    font-size: 20px;
+}
+.btn{
+    display: inline-block;
+    font-size: 19px;
+    color: #fff;
+    background-color: #333;
+    padding: 13px 20px;
+    border: none;
+    cursor: pointer; 
+}
+.btn:hover{
+    color: #f7c08a;
+}
+.btn_light{
+    background: #a09e9e;
+    color: #333;
+}
+.bg_dark{
+    background-color: #333;
+    color: #fff;
+}
+.clr{
+    clear: both;
+}
+.py3{
+    padding: 30px;
+}
+/* nav bar */
+#navbar{
+    background-color: #333;
+    color: aliceblue;
+    overflow: auto;
+}
+#navbar a{
+    color: #fff;/*FOR LINKS WE HAVE ADD COLOR SPECIFICITY*/
+}
+#navbar h2{
+    float: left;
+    padding: 20px 0 0 30px;
+}
+#navbar ul{
+    list-style: none;
+    float: right;
+}
+#navbar li{
+    float: left;
+}
+#navbar li a{
+    display: block;
+    padding: 20px;
+}
+#navbar li a:hover, #navbar li.current{
+    background: #444;
+    color: #f7c08a;
+}
+#navbar h2 a:hover{
+    color: #f7c08a;
+}
+
+/* Show Case */
+#showcase{
+    background: url('./images/showcase.jpg') no-repeat center center/cover/* './' means looking at the current folder and, '../' means looking one folder out*/;
+    height: 600px;
+}
+#showcase .showcase_content{
+    color: #fff;
+    text-align: center;
+    padding-top: 170px;
+}
+#showcase .showcase_content h1{
+    font-size: 60px;
+    line-height: 1.2em;
+}
+#showcase .showcase_content p{
+    padding-bottom: 20px;
+    line-height: 1.7em;
+}
+
+/* Home Info */
+#home_info{
+    height: 400px;
+}
+#home_info .info_img{
+    float: left;
+    width: 50%;
+    background: url('./images/photo-1.jpg') no-repeat;
+    min-height: 100%;
+}
+#home_info .info_content{
+    float: right;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    padding: 50px;
+}
+#home_info .info_content p{
+    padding-bottom: 20px;
+}
+/* Features */
+.box{
+    float: left;
+    width: 33.3%;
+    padding: 50px;
+    text-align: center;
+    background-color: rgb(185, 185, 185);
+    border: 1px rgb(199, 199, 199) solid;
+}
+
+/* Footer */
+#main_footer{
+    text-align: center;
+    background: #444444;
+    color: #fff;
+    padding: 20px;
+}
+
+/* About */
+#about_info .info_right {
+    float: right;
+    width: 50%;
+    min-height: 100%;
+
+}
+#about_info .info_right img {
+    display: block;
+    margin: auto;
+    width: 70%;
+}
+#about_info .info_left {
+    float: left;
+    width: 50%;
+    min-height: 100%;
+}
+#about_info{
+    padding: 30px;
+}
+
+/* Testimonial */
+#testimonial{
+    height: 600px;
+    background: url('./images/test-bg.jpg') no-repeat center center/cover;
+    padding-top: 100px;
+}
+#testimonial .testimonial img{
+    width: 100px;
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+#testimonial h2{
+    color: #fff;
+    text-align: center;
+}
+#testimonial .testimonial{
+    padding: 20px;
+    margin-bottom: 40px;
+    border-radius: 9px;
+    opacity: .9;
+}
+
+/* Contact info */
+#content_form{
+    background-color: #e9e9e9;
+}
+#content_form .form_group{
+    margin-bottom: 20px;
+}
+#content_form label{
+    display: block;
+    margin-bottom: 5px;
+}
+#content_form input, 
+#content_form textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #ebebeb;
+}
+#content_form input:focus, 
+#content_form textarea:focus{
+    outline: none;
+    border-color: #f7c08a;
+}
+#content_form textarea{
+    height: 200px;
+}
+#content_form .btn{
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+#content_form p{
+    font-size: 18px;
+    font-weight: 900;
+}
+#content_form h1{
+    margin-top: 20px;
+}
