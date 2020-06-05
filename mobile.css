@@ -1,0 +1,41 @@
+/* This style sheet will kick in when screen width is <768px */
+#navbar .logo{
+    float: none;
+    text-align: center;
+    padding: 10px;
+}
+#navbar ul, #navbar ul li{
+    float: none;
+    text-align: center
+}
+#navbar li a{
+    padding: 5px 0;
+    border-top: 1px dotted #3f3f3f;
+}
+#home_info .info_img{
+    display: none;
+}
+#home_info .info_content{
+    float: none;
+    width: 100%;
+}
+.box{
+    float: none;
+    width: 100%;
+    padding: 10px;
+}
+#about_info .info_left,
+#about_info .info_right{
+    float: none;
+    width: 100%;
+}
+#about_info .info_left h1, #about_info .info_left p{
+    text-align: center;
+}
+#testimonial{
+    height: 900px;
+}
+#content_form .l_heading{
+    display: inline-block;
+    border-bottom: 3px solid #333;
+}
